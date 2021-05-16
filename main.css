@@ -1,3 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* same size across browsers: 1rem === 10px */
+html {
+  font-size: 62.5%;
+}
+/* zet alle items horizontaal & verticaal in het centrum */
 body {
-  background-color: red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.cartman {
+  position: relative;
+}
+
+.cartman__face {
+  width: 50rem;
+  height: 40rem;
+  background-color: #fcdab3;
+  border-radius: 50%;
+}
+
+.cartman__eye {
+  width: 13rem;
+  height: 15rem;
+  background-color: white;
+  position: absolute;
+  top: 55%;
+  border-radius: 50%;
+}
+
+.cartman__eye--left {
+  left: 7.5rem;
+  transform: rotate(30deg) translateY(-70%);
+}
+
+.cartman__eye--right {
+  left: 7.6rem;
+  transform: rotate(-20deg) translateY(-65%);
 }
