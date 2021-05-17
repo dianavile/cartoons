@@ -48,3 +48,21 @@ body {
   left: 7.6rem;
   transform: rotate(-20deg) translateY(-65%);
 }
+
+.cartman__innerEye {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.cartman__innerEye--left {
+  top: 5rem;
+  right: 4rem;
+}
+
+.cartman__innerEye--right {
+  top: 5.55rem;
+  right: 4rem;
+}
