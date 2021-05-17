@@ -41,12 +41,12 @@ body {
 
 .cartman__eye--left {
   left: 7.5rem;
-  transform: rotate(30deg) translateY(-70%);
+  transform: rotate(40deg) translateY(-70%);
 }
 
 .cartman__eye--right {
-  left: 7.6rem;
-  transform: rotate(-20deg) translateY(-65%);
+  left: 8rem;
+  transform: rotate(-10deg) translateY(-65%);
 }
 
 .cartman__innerEye {
@@ -65,4 +65,29 @@ body {
 .cartman__innerEye--right {
   top: 5.55rem;
   right: 4rem;
+}
+
+.cartman__mouth {
+  height: 2rem;
+  width: 6rem;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 5rem;
+  left: 51%;
+  /* background-color: black; */
+  transform: translateX(-50%) rotate(3deg);
+  border: 0.4rem solid transparent;
+  border-top: 0.4rem solid black;
+}
+
+.cartman__chin {
+  position: absolute;
+  height: 20%;
+  width: 27%;
+  /* background-color: red; */
+  border-radius: 50%;
+  bottom: 9%;
+  left: 38%;
+  border: 0.05rem solid transparent;
+  border-bottom: 0.05rem solid rgba(2, 0, 0, 0.9);
 }
